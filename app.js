@@ -1,7 +1,9 @@
-// CommonJS, every file is module (by default)
-// Modules - Encapsulated Code (only share minimum)
-const names = require('./names')
-const sayHi = require('./utils')
-const data = require('./alternative-flavor')
+const path = require('path')
 
-sayHi(names.john)
+console.log(path.sep)
+
+const filePath = path.join('./content', 'subfolder', 'test.txt')
+console.log(filePath)
+
+const base = path.basename(filePath)
+console.log(base)
