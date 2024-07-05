@@ -8,3 +8,8 @@ Write 6
 Write 7
 Write 8
 Write 9
+Write 0
+Write 1
+Write 2
+Write 3
+Write 4
